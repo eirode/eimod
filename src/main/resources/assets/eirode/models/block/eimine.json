@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eirode:blocks/eimine",
+    "up": "eirode:blocks/eimine",
+    "north": "eirode:blocks/eimine",
+    "east": "eirode:blocks/eimine",
+    "south": "eirode:blocks/eimine",
+    "west": "eirode:blocks/eimine",
+    "particle": "eirode:blocks/eimine"
+  }
+}

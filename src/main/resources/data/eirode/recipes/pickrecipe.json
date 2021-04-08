@@ -1,0 +1,30 @@
+{
+  "group": "eirode",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "eirode:eigem"
+    },
+    "3": {
+      "item": "eirode:eigem"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "eirode:eigem"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "eirode:pickpick",
+    "count": 1
+  }
+}

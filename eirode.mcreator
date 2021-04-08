@@ -1,10 +1,82 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Eimine",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eimine"
+    },
+    {
+      "name": "Eimod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eimod"
+    },
+    {
+      "name": "Eigem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eigem"
+    },
+    {
+      "name": "Eigems",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eigems"
+    },
+    {
+      "name": "PickpickMakeItemGlow",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pickpick_make_item_glow",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Pickpick",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pickpick"
+    },
+    {
+      "name": "Pickrecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pickrecipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.eirode.eimine": "Eimine",
+      "itemGroup.tabeimod": "Eimod",
+      "item.eirode.eigem": "Eigem",
+      "item.eirode.pickpick": "Pickpick"
+    }
   },
   "workspaceSettings": {
     "modid": "eirode",
