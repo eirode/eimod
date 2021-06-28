@@ -10,9 +10,6 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:Eigem"
       },
       {
@@ -22,25 +19,28 @@
         "value": "CUSTOM:Eigem"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:Eigem"
       },
       {
         "value": "CUSTOM:Eigem"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Eigem"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:Eigem"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Eigem"
+      },
+      {
+        "value": "CUSTOM:Eigem"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Pickpick"
+      "value": "CUSTOM:Eimor.body"
     },
-    "name": "pickrecipe",
+    "name": "eiplate",
     "namespace": "mod"
   }
 }

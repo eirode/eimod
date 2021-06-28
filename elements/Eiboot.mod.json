@@ -13,6 +13,12 @@
         "value": ""
       },
       {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:Eigem"
       },
       {
@@ -22,25 +28,19 @@
         "value": "CUSTOM:Eigem"
       },
       {
-        "value": "Items.DIAMOND"
-      },
-      {
         "value": "CUSTOM:Eigem"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Eigem"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Pickpick"
+      "value": "CUSTOM:Eimor.boots"
     },
-    "name": "pickrecipe",
+    "name": "eiboot",
     "namespace": "mod"
   }
 }

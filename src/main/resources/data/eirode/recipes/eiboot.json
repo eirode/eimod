@@ -1,0 +1,26 @@
+{
+  "group": "eirode",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "eirode:eigem"
+    },
+    "2": {
+      "item": "eirode:eigem"
+    },
+    "3": {
+      "item": "eirode:eigem"
+    },
+    "5": {
+      "item": "eirode:eigem"
+    }
+  },
+  "result": {
+    "item": "eirode:eimor_boots",
+    "count": 1
+  }
+}

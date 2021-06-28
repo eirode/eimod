@@ -38,18 +38,6 @@
       "registry_name": "eigems"
     },
     {
-      "name": "PickpickMakeItemGlow",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pickpick_make_item_glow",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "Pickpick",
       "type": "tool",
       "sortid": 3,
@@ -66,17 +54,261 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pickrecipe"
+    },
+    {
+      "name": "EimorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eimor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EimorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eimor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EimorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eimor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EimorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eimor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eimor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eimor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Totaleimor",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "totaleimor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PickpickQuandLeBlocEstDetruitAvecLoutil",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pickpick_quand_le_bloc_est_detruit_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EipearllaunchQuandUneBalleToucheUnBloc",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eipearllaunch_quand_une_balle_touche_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eipearllaunch",
+      "type": "gun",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eipearllaunch"
+    },
+    {
+      "name": "Helmet",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helmet"
+    },
+    {
+      "name": "Eiplate",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eiplate"
+    },
+    {
+      "name": "Eigings",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eigings"
+    },
+    {
+      "name": "Eiboot",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eiboot"
+    },
+    {
+      "name": "Eipearllaunchrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eipearllaunchrecipe"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "eimor-equip",
+      "files": [
+        "eimor"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "eipearlsound",
+      "files": [
+        "eipearllaunchsound"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "item.eirode.eimor_boots": "Eimor Boots",
+      "item.eirode.eipearllaunch": "Eipearllaunch",
       "block.eirode.eimine": "Eimine",
       "itemGroup.tabeimod": "Eimod",
       "item.eirode.eigem": "Eigem",
-      "item.eirode.pickpick": "Pickpick"
+      "item.eirode.eimor_chestplate": "Eimor Body",
+      "item.eirode.pickpick": "Pickpick",
+      "subtitles.eipearlsound": "",
+      "item.eirode.eimor_helmet": "Eimor Helmet",
+      "item.eirode.eimor_leggings": "Eimor Leggings",
+      "subtitles.eimor-equip": ""
     }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
   },
   "workspaceSettings": {
     "modid": "eirode",
@@ -94,5 +326,5 @@
     "modElementsPackage": "net.mcreator.eirode",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547520
+  "mcreatorVersion": 202100118117
 }

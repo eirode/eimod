@@ -1,0 +1,39 @@
+{
+  "group": "eirode",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "eirode:eigem"
+    },
+    "2": {
+      "item": "eirode:eigem"
+    },
+    "3": {
+      "item": "eirode:eigem"
+    },
+    "4": {
+      "item": "eirode:eigem"
+    },
+    "5": {
+      "item": "eirode:eigem"
+    },
+    "6": {
+      "item": "eirode:eigem"
+    },
+    "7": {
+      "item": "eirode:eigem"
+    },
+    "8": {
+      "item": "eirode:eigem"
+    }
+  },
+  "result": {
+    "item": "eirode:eimor_chestplate",
+    "count": 1
+  }
+}

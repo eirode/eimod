@@ -1,1 +1,20 @@
-{}
+{
+  "eimor-equip": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "eirode:eimor",
+        "stream": false
+      }
+    ]
+  },
+  "eipearlsound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "eirode:eipearllaunchsound",
+        "stream": false
+      }
+    ]
+  }
+}

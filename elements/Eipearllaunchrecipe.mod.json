@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Eigem"
+        "value": ""
       },
       {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "CUSTOM:Eigem"
+        "value": "Items.ENDER_PEARL"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
+      },
+      {
+        "value": "Items.ENDER_PEARL"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Pickpick"
+      "value": "CUSTOM:Eipearllaunch"
     },
-    "name": "pickrecipe",
+    "name": "eipearllaunchrecipe",
     "namespace": "mod"
   }
 }

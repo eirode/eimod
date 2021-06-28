@@ -1,0 +1,36 @@
+{
+  "group": "eirode",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "eirode:eigem"
+    },
+    "1": {
+      "item": "eirode:eigem"
+    },
+    "2": {
+      "item": "eirode:eigem"
+    },
+    "3": {
+      "item": "eirode:eigem"
+    },
+    "5": {
+      "item": "eirode:eigem"
+    },
+    "6": {
+      "item": "eirode:eigem"
+    },
+    "8": {
+      "item": "eirode:eigem"
+    }
+  },
+  "result": {
+    "item": "eirode:eimor_leggings",
+    "count": 1
+  }
+}

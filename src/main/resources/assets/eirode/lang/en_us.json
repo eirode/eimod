@@ -1,6 +1,13 @@
 {
+  "item.eirode.eimor_boots": "Eimor Boots",
+  "item.eirode.eipearllaunch": "Eipearllaunch",
   "block.eirode.eimine": "Eimine",
   "itemGroup.tabeimod": "Eimod",
   "item.eirode.eigem": "Eigem",
-  "item.eirode.pickpick": "Pickpick"
+  "item.eirode.eimor_chestplate": "Eimor Body",
+  "item.eirode.pickpick": "Pickpick",
+  "subtitles.eipearlsound": "",
+  "item.eirode.eimor_helmet": "Eimor Helmet",
+  "item.eirode.eimor_leggings": "Eimor Leggings",
+  "subtitles.eimor-equip": ""
 }

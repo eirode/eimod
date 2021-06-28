@@ -47,6 +47,8 @@ public class EirodeModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public EirodeModElements() {
+		sounds.put(new ResourceLocation("eirode", "eimor-equip"), new net.minecraft.util.SoundEvent(new ResourceLocation("eirode", "eimor-equip")));
+		sounds.put(new ResourceLocation("eirode", "eipearlsound"), new net.minecraft.util.SoundEvent(new ResourceLocation("eirode", "eipearlsound")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("eirode").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

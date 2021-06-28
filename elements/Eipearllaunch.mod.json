@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "eipearllaunchertexture",
+    "customModelName": "Normal",
+    "name": "Eipearllaunch",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Eimod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.ENDER_PEARL"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:eipearlsound"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.ENDER_PEARL"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "EipearllaunchQuandUneBalleToucheUnBloc"
+    }
+  }
+}
