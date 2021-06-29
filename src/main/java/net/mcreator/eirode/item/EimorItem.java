@@ -17,9 +17,9 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.eirode.procedures.TotaleimorProcedure;
 import net.mcreator.eirode.procedures.EimorLeggingsTickEventProcedure;
 import net.mcreator.eirode.procedures.EimorHelmetTickEventProcedure;
-import net.mcreator.eirode.procedures.EimorBootsTickEventProcedure;
 import net.mcreator.eirode.procedures.EimorBodyTickEventProcedure;
 import net.mcreator.eirode.itemgroup.EimodItemGroup;
 import net.mcreator.eirode.EirodeModElements;
@@ -142,7 +142,7 @@ public class EimorItem extends EirodeModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					EimorBootsTickEventProcedure.executeProcedure($_dependencies);
+					TotaleimorProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}.setRegistryName("eimor_boots"));

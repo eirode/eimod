@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "utiliser la potion",
+          "onClick": {
+            "name": "Boutonsupergui"
+          },
+          "width": 110,
+          "height": 20,
+          "name": "utiliser la potion",
+          "x": 159,
+          "y": 72
+        }
+      }
+    ]
+  }
+}

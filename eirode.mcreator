@@ -156,39 +156,6 @@
       }
     },
     {
-      "name": "PickpickQuandLeBlocEstDetruitAvecLoutil",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pickpick_quand_le_bloc_est_detruit_avec_loutil",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "EipearllaunchQuandUneBalleToucheUnBloc",
       "type": "procedure",
       "sortid": 11,
@@ -270,6 +237,118 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "eipearllaunchrecipe"
+    },
+    {
+      "name": "Caveblock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caveblock"
+    },
+    {
+      "name": "SuperinvunerabiliteEnTickActifDeLaPotion",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superinvunerabilite_en_tick_actif_de_la_potion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Superinvunerabilite",
+      "type": "potion",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superinvunerabilite"
+    },
+    {
+      "name": "Eiole",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eiole"
+    },
+    {
+      "name": "Boutonsupergui",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boutonsupergui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Superinvulcraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superinvulcraft"
+    },
+    {
+      "name": "Superingui",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "superingui"
+    },
+    {
+      "name": "EioleLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eiole_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -295,15 +374,22 @@
     "en_us": {
       "item.eirode.eimor_boots": "Eimor Boots",
       "item.eirode.eipearllaunch": "Eipearllaunch",
+      "block.eirode.caveblock": "Caveblock",
       "block.eirode.eimine": "Eimine",
-      "itemGroup.tabeimod": "Eimod",
       "item.eirode.eigem": "Eigem",
-      "item.eirode.eimor_chestplate": "Eimor Body",
-      "item.eirode.pickpick": "Pickpick",
       "subtitles.eipearlsound": "",
+      "item.minecraft.potion.effect.superinvunerabilite": "Super invunerabilité",
+      "item.eirode.eiole": "Eiole",
+      "subtitles.eimor-equip": "",
+      "itemGroup.tabeimod": "Eimod",
+      "item.eirode.eimor_chestplate": "Eimor Body",
+      "item.minecraft.splash_potion.effect.superinvunerabilite": "Splash Super invunerabilité",
+      "item.minecraft.tipped_arrow.effect.superinvunerabilite": "Arrow of Super invunerabilité",
+      "item.eirode.pickpick": "Pickpick",
       "item.eirode.eimor_helmet": "Eimor Helmet",
+      "item.minecraft.lingering_potion.effect.superinvunerabilite": "Lingering Super invunerabilité",
       "item.eirode.eimor_leggings": "Eimor Leggings",
-      "subtitles.eimor-equip": ""
+      "effect.superinvunerabilite": "Superinvunerabilite"
     }
   },
   "foldersRoot": {

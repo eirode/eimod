@@ -20,7 +20,7 @@
       "name": "EimorLeggingsTickEvent"
     },
     "onBootsTick": {
-      "name": "EimorBootsTickEvent"
+      "name": "Totaleimor"
     },
     "creativeTab": {
       "value": "CUSTOM:Eimod"

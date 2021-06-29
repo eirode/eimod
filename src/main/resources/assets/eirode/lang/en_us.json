@@ -1,13 +1,20 @@
 {
   "item.eirode.eimor_boots": "Eimor Boots",
   "item.eirode.eipearllaunch": "Eipearllaunch",
+  "block.eirode.caveblock": "Caveblock",
   "block.eirode.eimine": "Eimine",
-  "itemGroup.tabeimod": "Eimod",
   "item.eirode.eigem": "Eigem",
-  "item.eirode.eimor_chestplate": "Eimor Body",
-  "item.eirode.pickpick": "Pickpick",
   "subtitles.eipearlsound": "",
+  "item.minecraft.potion.effect.superinvunerabilite": "Super invunerabilité",
+  "item.eirode.eiole": "Eiole",
+  "subtitles.eimor-equip": "",
+  "itemGroup.tabeimod": "Eimod",
+  "item.eirode.eimor_chestplate": "Eimor Body",
+  "item.minecraft.splash_potion.effect.superinvunerabilite": "Splash Super invunerabilité",
+  "item.minecraft.tipped_arrow.effect.superinvunerabilite": "Arrow of Super invunerabilité",
+  "item.eirode.pickpick": "Pickpick",
   "item.eirode.eimor_helmet": "Eimor Helmet",
+  "item.minecraft.lingering_potion.effect.superinvunerabilite": "Lingering Super invunerabilité",
   "item.eirode.eimor_leggings": "Eimor Leggings",
-  "subtitles.eimor-equip": ""
+  "effect.superinvunerabilite": "Superinvunerabilite"
 }

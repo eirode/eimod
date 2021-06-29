@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eirode:blocks/cave_texture_block",
+    "up": "eirode:blocks/cave_texture_block",
+    "north": "eirode:blocks/cave_texture_block",
+    "east": "eirode:blocks/cave_texture_block",
+    "south": "eirode:blocks/cave_texture_block",
+    "west": "eirode:blocks/cave_texture_block",
+    "particle": "eirode:blocks/cave_texture_block"
+  }
+}
